@@ -1,0 +1,44 @@
+baseURL = "https://libmodbus.org/"
+title = "libmodbus"
+googleAnalytics = "UA-1116546-3"
+
+theme = "crab"
+pygmentsUseClassic = false
+pygmentsCodeFences = true
+pygmentsStyle = "emacs"
+
+[permalinks]
+news = "/:year/:slug/"
+
+[params]
+author = "Stéphane Raimbault"
+description = "A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Win32"
+logoimage = "img/GitHub-Mark-64px.png"
+stableVersion = "3.0.7"
+devVersion = "3.1.5"
+repoURL = "https://github.com/stephane/libmodbus/"
+releaseURL = "https://libmodbus.org/releases/"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+
+[[menu.main]]
+weight = 1
+name = "News"
+url = "/news/"
+
+[[menu.main]]
+weight = 2
+name = "Download"
+url = "/download/"
+
+[[menu.main]]
+weight = 3
+name = "Documentation"
+url = "/documentation/"
+
+[[menu.main]]
+weight = 4
+name = "Report a Bug"
+url = "/reportbug/"
