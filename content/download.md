@@ -3,15 +3,17 @@ title: "Download"
 date: "2019-07-29"
 ---
 
-Two versions of libmodbus are currently maintained:
+Two branches of libmodbus are currently maintained:
 
-- stable release is [libmodbus-{{< stableversion >}}]({{< releaseurl >}}libmodbus-{{< stableversion >}}.tar.gz)
-  (2019-07-29 but almost no changes since 2013-10-06)
+- development release [v{{< devversion >}}]({{< releaseurl >}}libmodbus-{{< devversion >}}.tar.gz),
+  released on 2019-07-29. See the [release notes](https://github.com/stephane/libmodbus/releases/tag/v3.1.5).
+  This development version is very stable and will be marked as stable very soon.
 
-- development release is [libmodbus-{{< devversion >}}]({{< releaseurl >}}libmodbus-{{< devversion >}}.tar.gz) (2019-07-29).
-  This development release is very stable!
+- old release [v{{< stableversion >}}]({{< releaseurl >}}libmodbus-{{< stableversion >}}.tar.gz).
+  See the [release notes](https://github.com/stephane/libmodbus/releases/tag/v3.0.7).
+  Almost no changes since 2013-10-06, should NOT be used on new project.
 
-Download the tarball of the version you want and run:
+Download the tarball of the version you want by clicking and the version numbers and run:
 {{< highlight sh >}}
 ./configure && make && make install;
 {{< /highlight >}}
